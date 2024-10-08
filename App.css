@@ -1,0 +1,79 @@
+/* App.css */
+.App {
+	text-align: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.default {
+	background: linear-gradient(to bottom, #4facfe, #00f2fe);
+}
+
+.sunny {
+	background: linear-gradient(to bottom, #f7971e, #ffd200);
+	color: white;
+}
+
+.cloudy {
+	background: linear-gradient(to bottom, #757f9a, #d7dde8);
+	color: black;
+}
+
+.rainy {
+	background: linear-gradient(to bottom, #1e3c72, #2a5298);
+	color: white;
+}
+
+.snowy {
+	background: linear-gradient(to bottom, #83a4d4, #b6fbff);
+	color: black;
+}
+
+.city-search {
+	padding: 10px;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+.city-name h2 {
+	font-size: 36px;
+	color: inherit;
+}
+
+.date {
+	font-size: 18px;
+	color: inherit;
+}
+
+.icon-temp {
+	display: flex;
+	align-items: center;
+	font-size: 48px;
+	color: inherit;
+}
+
+.deg {
+	font-size: 24px;
+}
+
+.des-wind p {
+	margin: 5px 0;
+	color: inherit;
+}
+
+.error-message {
+	color: red;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+}
+
+.app-name {
+	font-family: 'Arial', sans-serif;
+	font-size: 40px;
+}
